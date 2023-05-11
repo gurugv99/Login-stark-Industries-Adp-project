@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'josefin sans',sans-serif;
+    }
+    body{
+        background-color: black;
+        max-width: 1650px; /* Set a maximum width for the body */
+        margin: 0 auto; /* Center the body horizontally */
+        padding: 20px; /* Add some padding around the body */
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+        overflow-y: scroll; /* Display vertical scrollbar */
+    
+    }
+    
+    
+    .hero{
+        height:100vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://i.pinimg.com/originals/89/7a/e7/897ae774fdc2d029960183a8c2edd5a7.jpg);
+        background-size: cover;
+        background-position: center;
+        
+    }
+    nav{
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 40px;
+        padding-left: 10%;
+        padding-right: 10%;
+    } 
+    
+    nav ul li{
+        display:inline-block;
+        position: relative;
+      top: 50%;
+      left: 50%;
+      padding: 20px 90px;
+        
+        
+    }
+    nav ul li a{
+        font-weight: bold;
+        font-size: 11px;
+        text-align: center;
+        text-shadow: 0 0 10PX rgb(131, 3, 250);
+        color: rgb(131, 3, 250);
+        font-family: Courier;
+        top: 60%;
+        left: 50%;
+        position: relative;
+        transform: translate(-50%, -50%);
+        max-width: 900px;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgb(131, 3, 250,0.9);
+        
+    
+    }
+    nav ul li a:hover{
+        color: #ea7c15;
+        transition: .3s;
+     
+    }
+    button{
+        border: none;
+        border-radius: 5px;
+        background-color: rgba(83, 77, 77, 0.5);
+        padding: 10px 10px;
+        border-radius: 20px;
+        color:CornflowerBlue;
+        font-weight: bold;
+        font-size: 20   px;
+        transition: .4s;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        box-shadow:0 0 10px CornflowerBlue;
+        text-shadow:0 0 10px rgb(0, 160, 253);
+       
+       
+    }
+    button:hover{
+        transform: scale(1.3);
+        cursor: pointer;
+        color: rgb(7, 104, 214);
+        transition: .3s ease-in;
+       
+    }
+    h1{
+        border: none;
+        text-align: center;
+        margin-top: 500px;
+        background-color: rgba(19, 17, 17, 0.5);
+        padding: 10px 10px;
+        border-radius: 20px;
+        position:relative;
+        color: CornflowerBlue;
+        text-shadow:0 0 10PX rgb(0, 160, 253) ;
+        box-shadow: 0 0 10px CornflowerBlue;
+        font-family: 'Courier New', Courier, monospace;
+        
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+        grid-gap: 10px; /* Adjust the gap between images */
+      }
+      
+      img {
+        width: 100%; /* Adjust the image width to fit the grid */
+        height: auto;
+        margin-top: 100px;
+      }
+      pre{
+        font-size: 22px;
+    text-align: center;
+    font-family: Courier;  
+    border: none;
+        text-align: center;
+        margin-top: 90px;
+        background-color: rgba(19, 17, 17, 0.5);
+        padding: 10px 10px;
+        border-radius: 20px;
+        position:relative;
+        color: CornflowerBlue;
+        text-shadow:0 0 10PX rgb(0, 160, 253) ;
+        box-shadow: 0 0 10px CornflowerBlue;
+      }
+
+
+
+      
+    
