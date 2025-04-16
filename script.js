@@ -3,7 +3,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     var username = document.getElementById('username').value;
     var password = document.getElementById('password').value;
   
-    if (username == '' && password == '') {
+    if (username == ' ' && password == ' ') {
       // Redirect to a new page
       window.location.href = 'home.html';
     } else {
